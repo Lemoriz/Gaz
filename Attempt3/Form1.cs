@@ -59,7 +59,17 @@ namespace Attempt3
 
         private void OpenProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
+            OpenFileDialog openFile = new OpenFileDialog();
+            Values thePathToTheFile = new Values();
 
+            openFile.Title = "Выберите файл";
+            openFile.Filter = "Excel|* xlsx";
+
+            if (openFile.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                thePathToTheFile.ThePathToTheFolder = openFile.FileName;
+                MessageBox.Show(openFile.FileName, "Загружен файл из папки");
+            }
         }
 
         private void SaveProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
