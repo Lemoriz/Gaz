@@ -17,7 +17,9 @@
             {
                 components.Dispose();
             }
+            
             base.Dispose(disposing);
+            
         }
 
         #region Windows Form Designer generated code
@@ -39,8 +41,8 @@
             this.СalculationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PerformToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ConstructAGraphToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.AboutTheProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ViewDataBaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AboutTheProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -137,19 +139,19 @@
             this.ConstructAGraphToolStripMenuItem.Text = "Построить график";
             this.ConstructAGraphToolStripMenuItem.Click += new System.EventHandler(this.ConstructAGraphToolStripMenuItem_Click);
             // 
-            // AboutTheProgramToolStripMenuItem
-            // 
-            this.AboutTheProgramToolStripMenuItem.Name = "AboutTheProgramToolStripMenuItem";
-            this.AboutTheProgramToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
-            this.AboutTheProgramToolStripMenuItem.Text = "О программе";
-            this.AboutTheProgramToolStripMenuItem.Click += new System.EventHandler(this.AboutTheProgramToolStripMenuItem_Click);
-            // 
             // ViewDataBaseToolStripMenuItem
             // 
             this.ViewDataBaseToolStripMenuItem.Name = "ViewDataBaseToolStripMenuItem";
             this.ViewDataBaseToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
             this.ViewDataBaseToolStripMenuItem.Text = "Просмотр базы";
             this.ViewDataBaseToolStripMenuItem.Click += new System.EventHandler(this.ViewDataBaseToolStripMenuItem_Click);
+            // 
+            // AboutTheProgramToolStripMenuItem
+            // 
+            this.AboutTheProgramToolStripMenuItem.Name = "AboutTheProgramToolStripMenuItem";
+            this.AboutTheProgramToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.AboutTheProgramToolStripMenuItem.Text = "О программе";
+            this.AboutTheProgramToolStripMenuItem.Click += new System.EventHandler(this.AboutTheProgramToolStripMenuItem_Click);
             // 
             // MainScreen
             // 
@@ -158,12 +160,14 @@
             this.ClientSize = new System.Drawing.Size(707, 322);
             this.Controls.Add(this.menuStrip2);
             this.Name = "MainScreen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Расчет интенсивности отказа оборудования";
             this.Load += new System.EventHandler(this.MainScreen_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

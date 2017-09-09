@@ -21,3 +21,7 @@ C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\obj\Debug\Attempt3.csproj.
 C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\obj\Debug\Attempt3.exe
 C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\obj\Debug\Attempt3.pdb
 C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\obj\Debug\Attempt3.ViewDataBase.resources
+C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.dll
+C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.xml
+C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.DataSet.xml

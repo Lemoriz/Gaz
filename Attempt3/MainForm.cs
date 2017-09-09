@@ -8,6 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using ExcelDataReader;
+
+
 
 
 namespace Attempt3
@@ -61,6 +65,7 @@ namespace Attempt3
         {
 
         }
+        //DataSet result;
 
         private void OpenProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
@@ -75,6 +80,7 @@ namespace Attempt3
                 thePathToTheFile.ThePathToTheFolder = openFile.FileName;
                 MessageBox.Show(openFile.FileName, "Загружен файл из папки");
             }
+
         }
 
         private void SaveProjectToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -123,6 +129,8 @@ namespace Attempt3
         {
             this.Visible = false;
             viewDataBase.Visible = true;
+            
+            
         }
     }
 }
