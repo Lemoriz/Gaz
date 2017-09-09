@@ -40,6 +40,7 @@
             this.PerformToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ConstructAGraphToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutTheProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ViewDataBaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             this.FileStripMenuItem1,
             this.EditToolStripMenuItem,
             this.СalculationToolStripMenuItem,
+            this.ViewDataBaseToolStripMenuItem,
             this.AboutTheProgramToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
@@ -142,6 +144,13 @@
             this.AboutTheProgramToolStripMenuItem.Text = "О программе";
             this.AboutTheProgramToolStripMenuItem.Click += new System.EventHandler(this.AboutTheProgramToolStripMenuItem_Click);
             // 
+            // ViewDataBaseToolStripMenuItem
+            // 
+            this.ViewDataBaseToolStripMenuItem.Name = "ViewDataBaseToolStripMenuItem";
+            this.ViewDataBaseToolStripMenuItem.Size = new System.Drawing.Size(106, 20);
+            this.ViewDataBaseToolStripMenuItem.Text = "Просмотр базы";
+            this.ViewDataBaseToolStripMenuItem.Click += new System.EventHandler(this.ViewDataBaseToolStripMenuItem_Click);
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -155,7 +164,6 @@
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
@@ -172,6 +180,7 @@
         private System.Windows.Forms.ToolStripMenuItem PerformToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ConstructAGraphToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AboutTheProgramToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ViewDataBaseToolStripMenuItem;
     }
 }
 

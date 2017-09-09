@@ -1,4 +1,5 @@
 ﻿using System;
+using Excel = Microsoft.Office.Interop.Excel;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,13 +9,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Attempt3
 {
     public partial class MainScreen : Form
     {
+        private ViewDataBase viewDataBase;
+
         public MainScreen()
         {
             InitializeComponent();
+            viewDataBase = new ViewDataBase(this) { Visible = false };
         }
 
         private void MainScreen_Load(object sender, EventArgs e)
@@ -110,6 +115,14 @@ namespace Attempt3
         private void AboutTheProgramToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+
+        private void ViewDataBaseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            viewDataBase.Visible = true;
         }
     }
 }
