@@ -27,6 +27,27 @@ namespace Attempt3
                 }
             }
         }
+
+        private static int theFilterIndex;
+
+        public int TheFilterIndex
+        {
+            get { return theFilterIndex; }
+
+            set
+            {
+                value = theFilterIndex;          
+            }
+        }
+
+        private static int swich;
+
+        public int Swich
+        {
+            get { return swich; }
+
+            set { value = swich; }
+        }
     }
 }
   

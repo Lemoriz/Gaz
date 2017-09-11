@@ -25,3 +25,4 @@ C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.
 C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.xml
 C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.DataSet.dll
 C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Ramil\Desktop\ProgrammaGaz\Attempt3\Attempt3\obj\Debug\Attempt3.Create_new__file.resources
