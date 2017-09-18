@@ -39,15 +39,6 @@ namespace Attempt3
                 value = theFilterIndex;          
             }
         }
-
-        private static int swich;
-
-        public int Swich
-        {
-            get { return swich; }
-
-            set { value = swich; }
-        }
     }
 }
   

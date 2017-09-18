@@ -66,18 +66,18 @@
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(75, 23);
             this.btnOpen.TabIndex = 11;
-            this.btnOpen.Text = "Open";
+            this.btnOpen.Text = "Обновить";
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(259, 12);
+            this.label1.Location = new System.Drawing.Point(245, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(83, 13);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Sheet:";
+            this.label1.Text = "Выберете лист";
             // 
             // dataGridView
             // 
@@ -90,7 +90,7 @@
             // sboShee
             // 
             this.sboShee.FormattingEnabled = true;
-            this.sboShee.Location = new System.Drawing.Point(300, 9);
+            this.sboShee.Location = new System.Drawing.Point(334, 9);
             this.sboShee.Name = "sboShee";
             this.sboShee.Size = new System.Drawing.Size(121, 21);
             this.sboShee.TabIndex = 8;
