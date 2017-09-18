@@ -102,7 +102,7 @@ namespace Attempt3
             //        if (ofd.ShowDialog() == DialogResult.OK)
             //        {
             //Read excel file
-            
+
             Values values = new Values();
             if (values.ThePathToTheFolder != null)
             {
@@ -124,10 +124,12 @@ namespace Attempt3
             //    }
             //}
         }
+        
+    
 
         private void sboShee_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //Select sheet
+           //Select sheet
 
             dataGridView.DataSource = result.Tables[sboShee.SelectedIndex];
         }
